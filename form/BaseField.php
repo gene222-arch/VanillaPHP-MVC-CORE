@@ -1,8 +1,8 @@
 <?php 
 
-namespace App\Core\Form;
+namespace gpa\vanillaphpmvc\Form;
 
-use App\Core\Routing\Model; 
+use gpa\vanillaphpmvc\Model; 
 /**
  * 
  */

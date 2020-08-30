@@ -1,9 +1,9 @@
 <?php 
 
-namespace App\Core\Routing;
+namespace gpa\vanillaphpmvc;
 
-use App\Core\Routing\Controller;
-use App\Core\Routing\Db\Database;
+use gpa\vanillaphpmvc\Controller;
+use gpa\vanillaphpmvc\Db\Database;
 use Exception;
 
 class Application {
@@ -71,7 +71,7 @@ class Application {
 	}
 
 	/**
- 	  * @param $user instance of App\Core\Routing\UserModel
+ 	  * @param $user instance of gpa\vanillaphpmvc\UserModel
  	  * Purpose is to set the SESSION and App::user property
 	  */ 
 	public function login( UserModel $user ) 

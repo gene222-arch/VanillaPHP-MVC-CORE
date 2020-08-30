@@ -1,8 +1,8 @@
 <?php 
 
-namespace App\Core\Routing;
+namespace gpa\vanillaphpmvc;
 
-use App\Core\MiddleWares\BaseMiddleware;
+use gpa\vanillaphpmvc\MiddleWares\BaseMiddleware;
 
 class Controller {
 
@@ -10,7 +10,7 @@ class Controller {
 	public string $layOut = "main";
 	public string $action = '';	// $view
 /**
-  * @var $middleWares App\Core\MiddleWares\AuthMiddleware
+  * @var $middleWares gpa\vanillaphpmvc\MiddleWares\AuthMiddleware
   */
 	public array  $middleWares = [];	// Use to store a CLASS
 

@@ -1,5 +1,5 @@
 <?php 
-namespace App\Core\Routing;
+namespace gpa\vanillaphpmvc;
 
 
 class Session 

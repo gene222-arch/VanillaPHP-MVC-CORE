@@ -6,5 +6,21 @@
             "email": "genephillip222@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    
+    "autoload" : {
+        
+    	"psr-4" : {     
+
+    		"gpa\\vanillaphpmvc\\" : "./src/core/",
+            "gpa\\vanillaphpmvc\\Db\\" : "./src/core/db/",
+            "gpa\\vanillaphpmvc\\MiddleWares\\" : "./src/core/middlewares/", 
+            "gpa\\vanillaphpmvc\\Exception\\" : "./src/core/exception/",
+    		"gpa\\vanillaphpmvc\\Form\\" : "./src/core/form/",
+    		"gpa\\vanillaphpmvc\\Controllers\\" : "./src/Controllers/",
+    		"gpa\\vanillaphpmvc\\Models\\" : "./src/Models/"
+
+    	}
+
+    }  
 }

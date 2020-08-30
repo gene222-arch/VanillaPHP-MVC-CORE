@@ -1,8 +1,8 @@
 <?php 
 
-namespace App\Core\Form;
+namespace gpa\vanillaphpmvc\Form;
 
-use App\Core\Routing\Model;
+use gpa\vanillaphpmvc\Model;
 
 class InputField extends BaseField
 {
@@ -15,7 +15,7 @@ class InputField extends BaseField
 	public string $type;		// input Type
 
 /**
-  * @param $model App\Core\Routing\Model 
+  * @param $model gpa\vanillaphpmvc\Model 
   * @param $string $attribute
   */	
 	public Model $model;		

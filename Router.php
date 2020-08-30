@@ -1,8 +1,8 @@
 <?php 
 
-namespace App\Core\Routing;
+namespace gpa\vanillaphpmvc;
 
-use App\Core\Exception\NotFoundException;
+use gpa\vanillaphpmvc\Exception\NotFoundException;
 
 
 class Router {
@@ -58,7 +58,7 @@ class Router {
 			return Application::$app->view->renderView($callback);
 		}
 /**
- * App\Core\Routing\Controller
+ * gpa\vanillaphpmvc\Controller
  */
 		if ( is_array($callback) ) {
 

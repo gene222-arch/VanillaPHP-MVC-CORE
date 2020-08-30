@@ -1,8 +1,8 @@
 <?php 
 
-namespace App\Core\Routing;
+namespace gpa\vanillaphpmvc;
 
-use App\Core\Routing\Db\DbModel;
+use gpa\vanillaphpmvc\Db\DbModel;
 
 /**
  * User Class Map Data

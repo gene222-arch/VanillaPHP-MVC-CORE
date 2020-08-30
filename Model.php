@@ -5,7 +5,7 @@
   * @Class Model we load all kinds of data passed by the user
   */
 
-namespace App\Core\Routing;
+namespace gpa\vanillaphpmvc;
 
 abstract class Model
 {

@@ -1,9 +1,9 @@
 <?php 
 
-namespace App\Core\Routing\Db;
+namespace gpa\vanillaphpmvc\Db;
 
-use App\Core\Routing\Model;
-use App\Core\Routing\Application;
+use gpa\vanillaphpmvc\Model;
+use gpa\vanillaphpmvc\Application;
 
 /**
  * Object Relational Mapping === Mapped the Tables/Class` that must be implemented 

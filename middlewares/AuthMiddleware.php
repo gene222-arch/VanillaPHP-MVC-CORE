@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Core\MiddleWares;
+namespace gpa\vanillaphpmvc\MiddleWares;
 
-use App\Core\Routing\Application;
-use App\Core\Exception\ForbiddenException;
+use gpa\vanillaphpmvc\Application;
+use gpa\vanillaphpmvc\Exception\ForbiddenException;
 
 
 class AuthMiddleware extends BaseMiddleware

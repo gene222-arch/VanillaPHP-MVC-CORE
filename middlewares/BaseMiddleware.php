@@ -1,6 +1,6 @@
 <?php 
 
-namespace App\Core\MiddleWares;
+namespace gpa\vanillaphpmvc\MiddleWares;
 
 
 abstract class BaseMiddleware
